@@ -25,6 +25,7 @@ public class GetMethodsDemo {
         orangeHRM.click();
         Set windowHandles = driver.getWindowHandles();
         System.out.println(windowHandles);
+
         //driver.close(); // close methods closes browser instance which is on focus
         driver.quit(); // closes the whole browser session
 

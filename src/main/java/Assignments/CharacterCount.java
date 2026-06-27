@@ -6,7 +6,7 @@ import java.util.Set;
 public class CharacterCount {
     public static void main(String[] args) {
 
-        String name = "ABHISHEKKUMAR".toLowerCase();
+        String name = "SaiTejaGoudGaddameedi".toLowerCase();
 
         // Store unique characters
         Set<Character> uniqueChars = new LinkedHashSet<>();
