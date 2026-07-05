@@ -27,5 +27,8 @@ public class NavigationalMethodsDemo {
         System.out.println("After refresh: "  + driver.getCurrentUrl());
         driver.quit();
 
+
+
+
     }
 }
