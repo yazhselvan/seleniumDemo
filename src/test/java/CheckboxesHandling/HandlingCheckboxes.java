@@ -18,9 +18,19 @@ public class HandlingCheckboxes {
         //xpath : //input[@class='form-check-input' and @type='checkbox']
 
         List<WebElement> Checkboxes = driver.findElements(By.xpath("//input[@class='form-check-input' and @type='checkbox']"));
+        Checkboxes.get(2).click();
+        Checkboxes.get(3).click();
+        Checkboxes.get(6).click();
 
         for(WebElement checkbox : Checkboxes){
-            checkbox.click();
+            /*
+            if(true){
+            }
+             */
+            if(!checkbox.isSelected()){
+                checkbox.click();
+            }
+
 
         }
         Thread.sleep(3000);
