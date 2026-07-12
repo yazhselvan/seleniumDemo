@@ -3,6 +3,7 @@ package SeleniumDay1;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 /*
 1. Open browser
@@ -15,7 +16,7 @@ public class FirstTestCase {
     public static void main(String[] args) {
 
     //1. Open browser
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = new ChromeDriver();
 //2. Open Amazon web app
         driver.get("https://www.saucedemo.com"); //get(string url) --> this method will open the web URL
         //specified in the parameter
